@@ -10,7 +10,7 @@ const Footer = () => {
           <h2 className="text-2xl">VIDIT KHANDELWAL</h2>
         </div>
         <div className="flex flex-row space-x-1 items-center text-neutral-900 dark:text-neutral-100 font-light">
-          <Link href="https://github.com/csvidit/domains-2">
+          <Link href="https://github.com/csvidit/temp-cs-portfolio">
             check out this project&apos;s repository
           </Link>
           <HiArrowUpRight />

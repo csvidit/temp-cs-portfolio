@@ -1,9 +1,10 @@
+import SectionContainer from "./SectionContainer";
 import SkillsContainer from "./SkillsContainer";
 import SkillsItem from "./SkillsItem";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-between lg:items-center bg-neutral-900 dark:bg-neutral-200 dark:bg-opacity-10 bg-opacity-10 rounded-xl m-2 p-4 mt-10">
+    <SectionContainer>
       <div className="flex flex-col space-y-1 lg:justify-center lg:items-center w-1/3">
         <h2 className="text-4xl lg:text-6xl">Skills</h2>
       </div>
@@ -72,7 +73,7 @@ const Skills = () => {
           <SkillsItem>Google Cloud</SkillsItem>
         </SkillsContainer>
       </div>
-    </div>
+      </SectionContainer>
   );
 };
 
