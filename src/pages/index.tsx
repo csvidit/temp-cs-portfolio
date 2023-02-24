@@ -7,6 +7,8 @@ import Card from '@/components/Card'
 import MainContent from '@/components/MainContent'
 import Header from '@/components/Header'
 import CardsContainer from '@/components/CardsContainer'
+import Hero from '@/components/Hero'
+import Skills from '@/components/Skills'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +24,50 @@ export default function Home() {
       <MainContainer>
         <Header/>
         <MainContent>
+          <Hero/>
+          <Skills/>
+          <CardsContainer>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+          </CardsContainer>
+          <CardsContainer>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+          </CardsContainer>
+          <CardsContainer>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+          </CardsContainer>
           <CardsContainer>
             <Card/>
             <Card/>
