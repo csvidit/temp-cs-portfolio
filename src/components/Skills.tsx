@@ -1,6 +1,7 @@
 import SectionContainer from "./SectionContainer";
 import SkillsContainer from "./SkillsContainer";
 import SkillsItem from "./SkillsItem";
+import SkillsSectionTitle from "./SkillsSectionTitle";
 
 const Skills = () => {
   return (
@@ -9,9 +10,7 @@ const Skills = () => {
         <h2 className="text-4xl lg:text-6xl">Skills</h2>
       </div>
       <div className="flex flex-col space-y-1 w-2/3 justify-center">
-        <div className="border-b border-b-neutral-900 dark:border-b-neutral-200 lg:w-2/5">
-          <h1 className="text-xl mt-10">web development</h1>
-        </div>
+        <SkillsSectionTitle>web development</SkillsSectionTitle>
         <SkillsContainer>
           <SkillsItem>React.js</SkillsItem>
           <SkillsItem>Next.js</SkillsItem>
@@ -21,35 +20,25 @@ const Skills = () => {
           <SkillsItem>Express</SkillsItem>
           <SkillsItem>Redux</SkillsItem>
         </SkillsContainer>
-
-        <div className="border-b border-b-neutral-900 dark:border-b-neutral-200 lg:w-2/5">
-          <h1 className="text-xl mt-10">mobile development</h1>
-        </div>
+        <SkillsSectionTitle>mobile development</SkillsSectionTitle>
         <SkillsContainer>
           <SkillsItem>AndroidX</SkillsItem>
           <SkillsItem>Jetpack</SkillsItem>
         </SkillsContainer>
-        <div className="border-b border-b-neutral-900 dark:border-b-neutral-200 lg:w-2/5">
-          <h1 className="text-xl mt-10">databases</h1>
-        </div>
+        <SkillsSectionTitle>databases</SkillsSectionTitle>
         <SkillsContainer>
           <SkillsItem>SQLite</SkillsItem>
           <SkillsItem>PostgreSQL</SkillsItem>
           <SkillsItem>Firebase Cloud Firestore</SkillsItem>
           <SkillsItem>MongoDB</SkillsItem>
         </SkillsContainer>
-        <div className="border-b border-b-neutral-900 dark:border-b-neutral-200 lg:w-2/5">
-          <h1 className="text-xl mt-10">ai & ml</h1>
-        </div>
+        <SkillsSectionTitle>ai & ml</SkillsSectionTitle>
         <SkillsContainer>
           <SkillsItem>pandas</SkillsItem>
           <SkillsItem>numpy</SkillsItem>
         </SkillsContainer>
-        <div className="border-b border-b-neutral-900 dark:border-b-neutral-200 lg:w-2/5">
-          <h1 className="text-xl mt-10">languages</h1>
-        </div>
+        <SkillsSectionTitle>languages</SkillsSectionTitle>
         <SkillsContainer>
-          {" "}
           <SkillsItem>Java</SkillsItem>
           <SkillsItem>JavaScript</SkillsItem>
           <SkillsItem>TypeScript</SkillsItem>
@@ -62,9 +51,7 @@ const Skills = () => {
           <SkillsItem>Erlang</SkillsItem>
           <SkillsItem>GraphQL</SkillsItem>
         </SkillsContainer>
-        <div className="border-b border-b-neutral-900 dark:border-b-neutral-200 w-2/5">
-          <h1 className="text-xl mt-10">tools & platforms</h1>
-        </div>
+        <SkillsSectionTitle>tools & platforms</SkillsSectionTitle>
         <SkillsContainer>
           <SkillsItem>GitHub</SkillsItem>
           <SkillsItem>VSCode</SkillsItem>

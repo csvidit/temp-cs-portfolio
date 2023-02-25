@@ -29,8 +29,6 @@ const Card = (props: {label: string, children: string, href: string | UrlObject}
         </div>
         <div className="flex flex-row items-center justify-between">
           <div className="flex flex-row space-x-1 items-center">
-            <TbBrandNextjs />
-            <TbBrandFirebase />
           </div>
           <div className="flex flex-row space-x-1 items-center">
             <p>visit project</p>
