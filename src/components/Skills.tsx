@@ -6,10 +6,10 @@ import SkillsSectionTitle from "./SkillsSectionTitle";
 const Skills = () => {
   return (
     <SectionContainer>
-      <div className="flex flex-col space-y-1 lg:justify-center lg:items-center w-1/3">
+      <div className="flex flex-col space-y-1 lg:justify-center lg:items-center lg:w-1/3">
         <h2 className="text-4xl lg:text-6xl">Skills</h2>
       </div>
-      <div className="flex flex-col space-y-1 w-2/3 justify-center">
+      <div className="flex flex-col space-y-1 lg:w-2/3 justify-center">
         <SkillsSectionTitle>web development</SkillsSectionTitle>
         <SkillsContainer>
           <SkillsItem>React.js</SkillsItem>

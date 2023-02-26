@@ -71,11 +71,11 @@ export default function Home() {
               A link-in-bio style website made in React, which fetches links
               from Hygraph using GraphQL
             </Card>
-            <Card label="nyt" href="https://bio.viditkhandelwal.com">
+            <Card label="nyt" href="https://nyt.viditkhandelwal.com">
               A no-nonsense Next.js web app that gets you the top stories from
               the New York Times wire
             </Card>
-            <Card label="JSPlayground" href="https://github.com/JSPlayground">
+            <Card label="JSPlayground" href="https://github.com/csvidit/JSPlayground">
               A website made to test a number of JavaScript concepts and
               micro-projects while learning.
             </Card>
@@ -101,21 +101,21 @@ export default function Home() {
             </Card>
             <Card
               label="Restaurant Rater"
-              href="https://csvidit.com/RepairShop"
+              href="https://github.com/csvidit/RepairShop"
             >
               A restaurant rating app
             </Card>
             <Card
               label="Computer Scientist Wiki"
-              href="https://csvidit.com/ComputerScientistWiki"
+              href="https://github.com/csvidit/ComputerScientistWiki"
             >
               A wiki/biography app that shows a biography of a famous computer
               scientist. It also has the frontend UI for a DonateActivity
             </Card>
-            <Card label="Jukebox" href="https://csvidit.com/Jukebox">
+            <Card label="Jukebox" href="https://github.com/csvidit/Jukebox">
               An MVP for a jukebox style music player.
             </Card>
-            <Card label="BucketTracker" href="https://csvidit.com/Jukebox">
+            <Card label="BucketTracker" href="https://github.com/csvidit/Jukebox">
               An Android app to track score and times for basketball matches,
               made in Android Studio. This is an MVP, so it only stores the data
               in memory, not storage
@@ -125,19 +125,19 @@ export default function Home() {
           <CardsContainer>
             <Card
               label="deep-neural-network"
-              href="https://csvidit.com/deep-neural-network"
+              href="https://github.com/csvidit/deep-neural-network"
             >
               A deep neural network classifier, made in Python
             </Card>
           </CardsContainer>
           <h2 className="text-2xl lg:text-4xl mt-5">c++</h2>
           <CardsContainer>
-            <Card label="GraphicsLib" href="https://csvidit.com/GraphicsLib">
+            <Card label="GraphicsLib" href="https://github.com/csvidit/GraphicsLib">
               A graphics library created from scratch in C++, similar to OpenGL.
             </Card>
             <Card
               label="TreeSortedStack"
-              href="https://csvidit.com/TreeSortedStack"
+              href="https://github.com/csvidit/TreeSortedStack"
             >
               An abstract data structure similar to a binary stree. Represented
               as an array where every node must be smaller than its children.
@@ -147,13 +147,13 @@ export default function Home() {
           <CardsContainer>
             <Card
               label="Venerable Manor"
-              href="https://csvidit.com/VenerableManor"
+              href="https://github.com/csvidit/VenerableManor"
             >
               A text-based adventure game made in Java.
             </Card>
             <Card
               label="RoverCommsModule"
-              href="https://csvidit.com/RoverCommsModule"
+              href="https://github.com/csvidit/RoverCommsModule"
             >
               A group project in Java, Python, and PEP9 which is supposed to
               process and parse communication between a hypothetical Mission

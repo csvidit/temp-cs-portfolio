@@ -18,7 +18,7 @@ const Header = () => {
     },
   };
   return (
-    <motion.div className="z-10 flex flex-row space-x-2 items-start w-screen h-max text-xl p-2 lg:p-4 lg:text-2xl uppercase fixed pl-5 pr-5 lg:pl-10 top-0 lg:pt-10 backdrop-blur-md bg-neutral-200 dark:bg-neutral-900 dark:bg-opacity-30 bg-opacity-30">
+    <motion.div className="z-10 flex flex-row space-x-2 items-start w-screen h-max text-xl p-2 lg:p-4 lg:text-2xl uppercase fixed pl-5 pr-5 lg:pl-10 top-0 backdrop-blur-md bg-neutral-200 dark:bg-neutral-900 dark:bg-opacity-30 bg-opacity-30">
       <motion.div
         whileHover="hover"
         variants={variants1}
