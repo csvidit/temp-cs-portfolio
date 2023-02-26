@@ -11,6 +11,9 @@ import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import SectionContainer from "@/components/SectionContainer";
+import Education from "@/components/Education";
+import WorkExperience from "@/components/WorkExperience";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -47,6 +50,8 @@ export default function Home() {
         <MainContent>
           <Hero />
           <Skills />
+          <Education/>
+          <WorkExperience/>
           <h2 className="text-4xl lg:text-6xl mt-10">Projects</h2>
           <h2 className="text-2xl lg:text-4xl mt-5">web development</h2>
           <CardsContainer>

@@ -1,5 +1,5 @@
-const CardDescription = (props: { children: string }) => {
-    return <p className="font-light text-justify">{props.children}</p>;
+const CardDescription = (props: { children: any }) => {
+    return <p className="flex flex-row space-x-1 font-light text-justify items-center">{props.children}</p>;
   };
   export default CardDescription;
   
