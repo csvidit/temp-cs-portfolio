@@ -1,6 +1,6 @@
 import SectionContainer from "./SectionContainer";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { AiFillCodepenSquare } from "react-icons/ai";
+import { HiEnvelope } from "react-icons/hi2";
 import { FaCodepen } from "react-icons/fa";
 import Link from "next/link";
 
@@ -14,15 +14,27 @@ const Hero = () => {
           since my comprehensive and interdisciplinary portfolio is still in the
           works. Take a look at some of my projects!
         </p>
-        <div className="flex flex-row space-x-10 flex-wrap text-4xl pt-10">
+        <div className="flex flex-row space-x-10 flex-wrap text-2xl pt-10">
           <Link href="https://github.com/csvidit" className="hover:opacity-70">
             <BsGithub />
           </Link>
-          <Link href="https://linkedin.com/in/viditkhandelwal" className="hover:opacity-70">
+          <Link
+            href="https://linkedin.com/in/viditkhandelwal"
+            className="hover:opacity-70"
+          >
             <BsLinkedin />
           </Link>
-          <Link href="https://codepen.com/viditkhandelwal" className="hover:opacity-70">
+          <Link
+            href="https://codepen.com/viditkhandelwal"
+            className="hover:opacity-70"
+          >
             <FaCodepen />
+          </Link>
+          <Link
+            href="mailto:viditkhandelwal_2023@depauw.edu"
+            className="hover:opacity-70"
+          >
+            <HiEnvelope />
           </Link>
         </div>
       </div>

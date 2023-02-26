@@ -36,12 +36,21 @@ const Header = () => {
         ></motion.div>
       </motion.div>
       <div className="flex flex-row space-x-2 items-center">
-        
         <h1 className="text-neutral-900 dark:text-neutral-100 font-medium">
           CS PORTFOLIO
         </h1>
+        {/*<picture>
+           <source
+            srcSet="../public/csp-logo-dark.svg"
+            media="(prefers-color-scheme: dark)"
+          />
+          <img
+            src="/csp-logo-light.svg"
+            alt="CS Portfolio Logo"
+          />
+        </picture> */}
         <Image
-          src="/csp-logo.svg"
+          src="/csp-logo-lime.svg"
           width={24}
           height={24}
           alt="CS Portfolio Logo"

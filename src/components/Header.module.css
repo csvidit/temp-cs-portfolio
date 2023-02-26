@@ -1,0 +1,13 @@
+@media (prefers-color-scheme: dark)
+{
+  .header_logo{
+    background-image: url("/background.png");
+  }
+}
+
+@media (prefers-color-scheme: light)
+{
+  .header_logo{
+    background-image: url("/background-light.png");
+  }
+}

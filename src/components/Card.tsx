@@ -11,7 +11,7 @@ import { UrlObject } from "url";
 const Card = (props: {label: string, children: string, href: string | UrlObject}) => {
   return (
     <motion.div
-      className="flex flex-col space-y-1 backdrop-blur-md rounded-xl bg-neutral-900 dark:bg-neutral-200 dark:bg-opacity-10 bg-opacity-10 p-2 lg:p-4 m-2"
+      className="flex flex-col space-y-1 backdrop-blur-md rounded-xl bg-neutral-900 dark:bg-neutral-200 dark:bg-opacity-10 bg-opacity-10 p-2 lg:p-4 m-2 snap-start"
       whileHover={{
         scale: 1.025,
         transition: { type: "tween", ease: "easeInOut" },
