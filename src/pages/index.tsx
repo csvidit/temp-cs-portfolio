@@ -1,7 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "@next/font/google";
-import styles from "@/styles/Home.module.css";
 import MainContainer from "@/components/MainContainer";
 import Card from "@/components/Card";
 import MainContent from "@/components/MainContent";
@@ -11,9 +9,9 @@ import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import SectionContainer from "@/components/SectionContainer";
 import Education from "@/components/Education";
 import WorkExperience from "@/components/WorkExperience";
+import { motion } from "framer-motion";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -50,8 +48,8 @@ export default function Home() {
         <MainContent>
           <Hero />
           <Skills />
-          <Education/>
-          <WorkExperience/>
+          <Education />
+          <WorkExperience />
           <h2 className="text-4xl lg:text-6xl mt-10">Projects</h2>
           <h2 className="text-2xl lg:text-4xl mt-5">web development</h2>
           <CardsContainer>
@@ -80,7 +78,10 @@ export default function Home() {
               A no-nonsense Next.js web app that gets you the top stories from
               the New York Times wire
             </Card>
-            <Card label="JSPlayground" href="https://github.com/csvidit/JSPlayground">
+            <Card
+              label="JSPlayground"
+              href="https://github.com/csvidit/JSPlayground"
+            >
               A website made to test a number of JavaScript concepts and
               micro-projects while learning.
             </Card>
@@ -120,7 +121,10 @@ export default function Home() {
             <Card label="Jukebox" href="https://github.com/csvidit/Jukebox">
               An MVP for a jukebox style music player.
             </Card>
-            <Card label="BucketTracker" href="https://github.com/csvidit/Jukebox">
+            <Card
+              label="BucketTracker"
+              href="https://github.com/csvidit/Jukebox"
+            >
               An Android app to track score and times for basketball matches,
               made in Android Studio. This is an MVP, so it only stores the data
               in memory, not storage
@@ -137,7 +141,10 @@ export default function Home() {
           </CardsContainer>
           <h2 className="text-2xl lg:text-4xl mt-5">c++</h2>
           <CardsContainer>
-            <Card label="GraphicsLib" href="https://github.com/csvidit/GraphicsLib">
+            <Card
+              label="GraphicsLib"
+              href="https://github.com/csvidit/GraphicsLib"
+            >
               A graphics library created from scratch in C++, similar to OpenGL.
             </Card>
             <Card
@@ -165,14 +172,22 @@ export default function Home() {
               Control and a Mars Rover.
             </Card>
           </CardsContainer>
-          <Link
-            href="https://github.com/csvidit"
-            className="flex flex-col space-y-1 backdrop-blur-md rounded-xl bg-neutral-900 dark:bg-neutral-200 dark:bg-opacity-10 bg-opacity-10 p-2 lg:p-4 m-2 mt-10 items-center justify-center"
+          <div></div>
+          <motion.div
+            whileHover={{
+              scale: 1.025,
+              transition: { type: "tween", ease: "easeInOut" },
+            }}
           >
-            <h2 className="text-2xl lg:text-4xl text-right">
-              Visit my GitHub profile to see all other projects :&#41;
-            </h2>
-          </Link>
+            <Link
+              href="https://github.com/csvidit"
+              className="flex flex-col space-y-1 backdrop-blur-md rounded-xl bg-neutral-900 dark:bg-neutral-200 dark:bg-opacity-10 bg-opacity-10 p-2 lg:p-4 m-2 mt-10 items-center justify-center"
+            >
+              <h2 className="text-2xl lg:text-4xl text-right">
+                Visit my GitHub profile to see all other projects :&#41;
+              </h2>
+            </Link>
+          </motion.div>
         </MainContent>
         <Footer />
       </MainContainer>

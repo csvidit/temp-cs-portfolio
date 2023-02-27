@@ -6,7 +6,7 @@ import { BsDot } from "react-icons/bs";
 
 const WorkExperience = () => {
   return (
-    <SectionContainer>
+    <SectionContainer id="work">
       <div className="flex flex-col space-y-1 lg:justify-center lg:items-center lg:w-1/3">
         <h2 className="text-4xl lg:text-6xl">Experience</h2>
       </div>

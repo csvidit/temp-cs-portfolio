@@ -5,7 +5,7 @@ import SkillsSectionTitle from "./SkillsSectionTitle";
 
 const Skills = () => {
   return (
-    <SectionContainer>
+    <SectionContainer id="skills">
       <div className="flex flex-col space-y-1 lg:justify-center lg:items-center lg:w-1/3">
         <h2 className="text-4xl lg:text-6xl">Skills</h2>
       </div>
@@ -19,11 +19,16 @@ const Skills = () => {
           <SkillsItem>Node.js</SkillsItem>
           <SkillsItem>Express</SkillsItem>
           <SkillsItem>Redux</SkillsItem>
+          <SkillsItem>TailwindCSS</SkillsItem>
+          <SkillsItem>TailwindCSS</SkillsItem>
         </SkillsContainer>
         <SkillsSectionTitle>mobile development</SkillsSectionTitle>
         <SkillsContainer>
           <SkillsItem>AndroidX</SkillsItem>
           <SkillsItem>Jetpack</SkillsItem>
+          <SkillsItem>MVVM</SkillsItem>
+          <SkillsItem>Retrofit</SkillsItem>
+          <SkillsItem>OkHttp</SkillsItem>
         </SkillsContainer>
         <SkillsSectionTitle>databases</SkillsSectionTitle>
         <SkillsContainer>

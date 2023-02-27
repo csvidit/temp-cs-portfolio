@@ -4,7 +4,7 @@ import SectionContainer from "./SectionContainer";
 
 const Education = () => {
   return (
-    <SectionContainer>
+    <SectionContainer id="education">
       <div className="flex flex-col space-y-1 lg:justify-center lg:items-center lg:w-1/3">
         <h2 className="text-4xl lg:text-6xl">Education</h2>
       </div>
@@ -16,7 +16,10 @@ const Education = () => {
         </p>
         <p className="text-lg m-2">
           Semester abroad at New College, University of Oxford,
-          <span className="font-light"> studying International Economics and Creative Writing</span>
+          <span className="font-light">
+            {" "}
+            studying International Economics and Creative Writing
+          </span>
         </p>
         <div className="flex flex-col lg:flex-row items-center">
           <div className="w-full lg:w-1/2 flex flex-col space-y-1 h-36 backdrop-blur-md rounded-xl border border-neutral-900 dark:border-neutral-200 p-2 lg:p-4 m-2">
