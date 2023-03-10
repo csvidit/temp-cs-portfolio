@@ -53,6 +53,11 @@ export default function Home() {
           <h2 className="text-4xl lg:text-6xl mt-10">Projects</h2>
           <h2 className="text-2xl lg:text-4xl mt-5">web development</h2>
           <CardsContainer>
+            <Card label="Xzayvian GPT" href="https://xz.viditkhandelwal.com">
+              A chatbot that uses OpenAI&apos;s GPT-3.5-Turbo LLM. You can
+              create a user account through Google OAuth, and your search
+              history gets stored in Cloud Firestore for future reference.
+            </Card>
             <Card label="snapshot" href="https://snapshot.viditkhandelwal.com">
               A web app that shows you a briefing of the day, including news and
               weather
