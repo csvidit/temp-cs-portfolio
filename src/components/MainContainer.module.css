@@ -146,7 +146,7 @@
   .main_container {
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     font-family: "Gelion", "sans-serif";
   }
 
@@ -160,7 +160,7 @@
   .main_container {
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     font-family: "Gelion", "sans-serif";
   }
 
