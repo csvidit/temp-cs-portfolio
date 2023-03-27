@@ -1,6 +1,7 @@
 import CardDescription from "./CardDescription";
 import CardLabel from "./CardLabel";
 import SectionContainer from "./SectionContainer";
+import SectionTitle from "./SectionTitle";
 import WorkCard from "./WorkCard";
 import { BsDot } from "react-icons/bs";
 
@@ -8,7 +9,7 @@ const WorkExperience = () => {
   return (
     <SectionContainer id="work">
       <div className="flex flex-col space-y-1 lg:justify-center lg:items-center lg:w-1/3">
-        <h2 className="text-4xl lg:text-6xl">Experience</h2>
+        <SectionTitle>Experience</SectionTitle>
       </div>
       <div className="flex flex-col space-y-1 lg:w-2/3 justify-center">
         <WorkCard>

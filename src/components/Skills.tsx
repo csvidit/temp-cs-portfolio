@@ -1,4 +1,5 @@
 import SectionContainer from "./SectionContainer";
+import SectionTitle from "./SectionTitle";
 import SkillsContainer from "./SkillsContainer";
 import SkillsItem from "./SkillsItem";
 import SkillsSectionTitle from "./SkillsSectionTitle";
@@ -7,7 +8,7 @@ const Skills = () => {
   return (
     <SectionContainer id="skills">
       <div className="flex flex-col space-y-1 lg:justify-center lg:items-center lg:w-1/3">
-        <h2 className="text-4xl lg:text-6xl">Skills</h2>
+        <SectionTitle>Skills</SectionTitle>
       </div>
       <div className="flex flex-col space-y-1 lg:w-2/3 justify-center">
         <SkillsSectionTitle>web development</SkillsSectionTitle>

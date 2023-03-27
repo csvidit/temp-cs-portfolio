@@ -12,6 +12,7 @@ import Link from "next/link";
 import Education from "@/components/Education";
 import WorkExperience from "@/components/WorkExperience";
 import { motion } from "framer-motion";
+import ProjectsSectionTitle from "@/components/ProjectsSectionTitle";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -50,13 +51,11 @@ export default function Home() {
           <Skills />
           <Education />
           <WorkExperience />
-          <h2 className="text-4xl lg:text-6xl mt-10">Projects</h2>
-          <h2 className="text-2xl lg:text-4xl mt-5">web development</h2>
+          <h1 className="text-4xl lg:text-6xl mt-10">Projects</h1>
+          <ProjectsSectionTitle>web development</ProjectsSectionTitle>
           <CardsContainer>
             <Card label="Xzayvian GPT" href="https://xz.viditkhandelwal.com">
-              A chatbot that uses OpenAI&apos;s GPT-3.5-Turbo LLM. You can
-              create a user account through Google OAuth, and your search
-              history gets stored in Cloud Firestore for future reference.
+              A chatbot that uses OpenAI&apos;s GPT-3.5 LLM. Supports user accounts and search histories.
             </Card>
             <Card label="snapshot" href="https://snapshot.viditkhandelwal.com">
               A web app that shows you a briefing of the day, including news and
@@ -98,7 +97,7 @@ export default function Home() {
               whenever the user hovers onto a particular link.
             </Card>
           </CardsContainer>
-          <h2 className="text-2xl lg:text-4xl mt-5">android development</h2>
+          <ProjectsSectionTitle>android development</ProjectsSectionTitle>
           <CardsContainer>
             <Card
               label="Repertoire"
@@ -107,12 +106,12 @@ export default function Home() {
               A no-nonsense web app that gets you the top stories from the New
               York Times wire
             </Card>
-            <Card label="Repair Shop" href="https://csvidit.com/RepairShop">
+            <Card label="Repair Shop" href="https://github.com/csvidit/RepairShop">
               A repair shop app
             </Card>
             <Card
               label="Restaurant Rater"
-              href="https://github.com/csvidit/RepairShop"
+              href="https://github.com/csvidit/RestaurantRater"
             >
               A restaurant rating app
             </Card>
@@ -128,14 +127,14 @@ export default function Home() {
             </Card>
             <Card
               label="BucketTracker"
-              href="https://github.com/csvidit/Jukebox"
+              href="https://github.com/csvidit/BucketTracker"
             >
               An Android app to track score and times for basketball matches,
               made in Android Studio. This is an MVP, so it only stores the data
               in memory, not storage
             </Card>
           </CardsContainer>
-          <h2 className="text-2xl lg:text-4xl mt-5">python</h2>
+          <ProjectsSectionTitle>python</ProjectsSectionTitle>
           <CardsContainer>
             <Card
               label="deep-neural-network"
@@ -160,7 +159,7 @@ export default function Home() {
               as an array where every node must be smaller than its children.
             </Card>
           </CardsContainer>
-          <h2 className="text-2xl lg:text-4xl mt-5">other misc. projects</h2>
+          <ProjectsSectionTitle>other misc. projects</ProjectsSectionTitle>
           <CardsContainer>
             <Card
               label="Venerable Manor"
