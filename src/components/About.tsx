@@ -26,7 +26,14 @@ const About = () => {
             duplicated by following a tutorial. I believe in learning on my own
             than just following spoon-fed tutorials.
           </p>
-          <p className="">I learn things very fast and in both independent and group environments, as demonstrated by my self-taught skills and from-sratch projects.</p>
+          <p className="">
+            I learn things very fast and in both independent and group
+            environments, as demonstrated by my self-taught skills and
+            from-scratch projects. I also developed a beta version of a Android
+            image processing app as the sole CS professional at the startup I
+            interned at. That required me to learn many Android concepts and
+            image processing libraries in the span of a few weeks.
+          </p>
           <p className="">
             I have academic strengths across Computer Science and Economics,
             with demonstrated experience in high leadership and mentoring
@@ -37,9 +44,11 @@ const About = () => {
             day in and out of class.
           </p>
           <p className="">
-            Aside from my CS talents, I also like graphic designing as a hobby, and appreciate books written by esteemed authors such as Raghuram Rajan on economics, ethics, and the intersection of the two. Given enough time, I can make a mean tiramisu and a terrific Opera cake.
+            Aside from my CS talents, I also like graphic designing as a hobby,
+            and appreciate books written by esteemed authors such as Raghuram
+            Rajan on economics, ethics, and the intersection of the two. Given
+            enough time, I can make a mean tiramisu and a terrific Opera cake.
           </p>
-          
         </div>
       </div>
     </SectionContainer>
