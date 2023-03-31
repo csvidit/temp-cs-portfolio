@@ -19,9 +19,11 @@ const Skills = () => {
           <SkillsItem>JQuery</SkillsItem>
           <SkillsItem>Node.js</SkillsItem>
           <SkillsItem>Express</SkillsItem>
+          <SkillsItem>Flask</SkillsItem>
           <SkillsItem>Redux</SkillsItem>
           <SkillsItem>TailwindCSS</SkillsItem>
-          <SkillsItem>TailwindCSS</SkillsItem>
+          <SkillsItem>Framer Motion</SkillsItem>
+          <SkillsItem>Auth0</SkillsItem>
         </SkillsContainer>
         <SkillsSectionTitle>mobile development</SkillsSectionTitle>
         <SkillsContainer>

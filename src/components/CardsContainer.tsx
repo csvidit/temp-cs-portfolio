@@ -1,6 +1,6 @@
 import Card from "./Card";
 
-const CardsContainer = (props: {children: any}) =>
+const CardsContainer = (props: {children: React.ReactNode}) =>
 {
     return(<div className="flex flex-row items-center space-x-10 overflow-x-auto mt-10 snap-x">{props.children}</div>)
 };

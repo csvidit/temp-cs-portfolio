@@ -1,4 +1,4 @@
-const WorkCard = (props: {children: any}) => {
+const WorkCard = (props: {children: React.ReactNode}) => {
   return (
     <div className="w-full flex flex-col space-y-1 backdrop-blur-md rounded-xl p-2 lg:p-4 m-2">
     {props.children}

@@ -1,4 +1,4 @@
-const SkillsContainer = (props: {children: any}) => {
+const SkillsContainer = (props: {children: React.ReactNode}) => {
   return (
     <div className="flex flex-row flex-wrap gap-4 items-center">
       {props.children}
