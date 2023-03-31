@@ -38,9 +38,8 @@ const About = () => {
             I have academic strengths across Computer Science and Economics,
             with demonstrated experience in high leadership and mentoring
             positions. I am the Co-Founder and current President of the
-            International Computer Science Association, have been an Student
-            Ambassador and the Vice President of Student Life at DePauw Student
-            Government before. Teamwork is my mantra, and I do that night and
+            International Computer Science Association and have been an Student
+            Ambassador and member of various Advisory Boards. Teamwork is my mantra, and I do that night and
             day in and out of class.
           </p>
           <p className="">
