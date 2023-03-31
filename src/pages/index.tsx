@@ -13,6 +13,7 @@ import Education from "@/components/Education";
 import WorkExperience from "@/components/WorkExperience";
 import { motion } from "framer-motion";
 import ProjectsSectionTitle from "@/components/ProjectsSectionTitle";
+import About from "@/components/About";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -48,6 +49,7 @@ export default function Home() {
         <Header />
         <MainContent>
           <Hero />
+          <About />
           <Skills />
           <Education />
           <WorkExperience />
