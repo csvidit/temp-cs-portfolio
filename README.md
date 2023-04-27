@@ -2,7 +2,7 @@
 
 A temporary made-from-scratch portfolio to do the job while I find time to work on my comprehensive interdisciplinary portfolio. It is fully responsive to device screens of all sizes, and fully supports the user's dark and light mode preferences. It is made **completely from scratch** in Next.js. The backgrounds were created in Figma.
 
-My goal with this project was simple - create a consistent UI (almost creating a design language of consistent typography heirarchy, spacing, font styles, colors, and components). Everything is purposeful and there are animations (made using ```framer-motion```) only where necessary. Conveying information effectively and cleanly is primary; everything else is secondary.
+My goal with this project was simple - create a consistent UI (almost creating a design language of consistent typography heirarchy, spacing, font styles, colors, and components). Everything is purposeful and there are animations (made using ```framer-motion``` or ```tailwindcss``` transitions) only where necessary. Conveying information effectively and cleanly is primary; everything else is secondary.
 
 ## Tech Stack
 
