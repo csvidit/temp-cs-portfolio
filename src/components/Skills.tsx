@@ -44,6 +44,7 @@ const Skills = () => {
         <SkillsContainer>
           <SkillsItem>pandas</SkillsItem>
           <SkillsItem>numpy</SkillsItem>
+          <SkillsItem>deep neural networks</SkillsItem>
         </SkillsContainer>
         <SkillsSectionTitle>languages</SkillsSectionTitle>
         <SkillsContainer>
@@ -65,6 +66,7 @@ const Skills = () => {
           <SkillsItem>VSCode</SkillsItem>
           <SkillsItem>Android Studio</SkillsItem>
           <SkillsItem>Firebase</SkillsItem>
+          <SkillsItem>Supabase</SkillsItem>
           <SkillsItem>Google Cloud</SkillsItem>
         </SkillsContainer>
       </div>
