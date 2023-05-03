@@ -14,9 +14,9 @@ const Hero = () => {
         </h1>
         <p className="font-light">
           I made this{" "}
-          <strong className="text-lime-600 dark:text-lime-500">
+          {/* <strong className="text-lime-600 dark:text-lime-500">
             temporary
-          </strong>{" "}
+          </strong>{" "} */}
           portfolio since my comprehensive and interdisciplinary portfolio is
           still in the works. Take a look at some of my projects!
         </p>
