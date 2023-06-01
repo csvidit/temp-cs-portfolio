@@ -56,12 +56,24 @@ export default function Home() {
           <h1 className="text-4xl lg:text-6xl mt-10">Projects</h1>
           <ProjectsSectionTitle>web development</ProjectsSectionTitle>
           <CardsContainer>
+            <Card
+              label="Squawk Social"
+              href="https://github.com/csvidit/squawk"
+            >
+              A fun and unserious social media platform targeted at Gen Z.
+              Created using Next.js, Auth0, and Supabase PostgreSQL.
+            </Card>
             <Card label="Xzayvian GPT" href="https://xz.viditkhandelwal.com">
-              A chatbot that uses OpenAI&apos;s GPT-3.5 LLM. Supports user accounts and search histories.
+              A chatbot that uses OpenAI&apos;s GPT-3.5 LLM. Supports user
+              accounts and search histories.
             </Card>
             <Card label="snapshot" href="https://snapshot.viditkhandelwal.com">
               A web app that shows you a briefing of the day, including news and
               weather
+            </Card>
+            <Card label="Studio" href="https://studio.viditkhandelwal.com">
+              A website with tasteful design made for my sofware and design
+              consultancy.
             </Card>
             <Card label="blog-mvp" href="https://github.com/csvidit/blog-mvp">
               A blog concept made using Express and PostgreSQL.
@@ -108,7 +120,10 @@ export default function Home() {
               A no-nonsense web app that gets you the top stories from the New
               York Times wire
             </Card>
-            <Card label="Repair Shop" href="https://github.com/csvidit/RepairShop">
+            <Card
+              label="Repair Shop"
+              href="https://github.com/csvidit/RepairShop"
+            >
               A repair shop app
             </Card>
             <Card
